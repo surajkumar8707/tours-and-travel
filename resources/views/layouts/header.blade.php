@@ -82,6 +82,21 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('contact') }}">Contact US</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('jeep.safari') }}">Jeep Safari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('elephant.safari') }}">Elephant Safari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('canter.safari') }}">Canter Safari</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('dhikala.night') }}">Dhikala Night</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('cancel.refund') }}">Cancel Refund</a>
+                        </li>
                     </ul>
                 </div>
             </div>

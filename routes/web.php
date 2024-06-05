@@ -24,6 +24,11 @@ Route::get('/gallery', [FrontController::class, 'gallery'])->name('gallery');
 Route::get('/packages', [FrontController::class, 'packages'])->name('packages');
 Route::get('/privacy-policy', [FrontController::class, 'privacyPolicy'])->name('privacy.policy');
 Route::get('/term-condition', [FrontController::class, 'termsCondition'])->name('terms.condition');
+Route::get('/jeep-safari', [FrontController::class, 'jeepSafari'])->name('jeep.safari');
+Route::get('/elephant-safari', [FrontController::class, 'elephantSafari'])->name('elephant.safari');
+Route::get('/canter-safari', [FrontController::class, 'canterSafari'])->name('canter.safari');
+Route::get('/dhikala-night-stay', [FrontController::class, 'dhikalaNight'])->name('dhikala.night');
+Route::get('/cancel-refund-policy', [FrontController::class, 'cancelRefund'])->name('cancel.refund');
 
 Route::get('login', function () {
     return redirect()->route('admin.login');

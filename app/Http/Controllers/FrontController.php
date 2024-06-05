@@ -170,4 +170,44 @@ class FrontController extends Controller
             dd($e->getMessage());
         }
     }
+    public function jeepSafari()
+    {
+        try {
+            return view('jeep_safari');
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
+    public function elephantSafari()
+    {
+        try {
+            return view('elephant_safari');
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
+    public function canterSafari()
+    {
+        try {
+            return view('canter_safari');
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
+    public function dhikalaNight()
+    {
+        try {
+            return view('dhikala_night');
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
+    public function cancelRefund()
+    {
+        try {
+            return view('cancel_refund');
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
 }
