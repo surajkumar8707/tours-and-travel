@@ -92,19 +92,6 @@ class PefectTourPackagesSeeder extends Seeder
                 'tour_guides' => 'Tour guides for Package 6',
                 'status' => 1,
             ],
-            [
-                'name' => 'Delightful Uttarakhand Family Tour Package',
-                'description' => 'Uttarakhand, is a perfect combination of serenity, tranquility, adventure, nature, beauty, and peace, all that a couple could hope to find for an ideal honeymoon, providing a retreat and an idyllic location for a honeymoon away from the chaos of a metropolitan.',
-                'images' => 'assets/front/images/packages/p7.jpg',
-                'price' => 40950,
-                'duration' => '10 Nights/11 Days',
-                'itinerary' => 'Itinerary for Package 7',
-                'accommodations' => 'Accommodations for Package 7',
-                'meals' => 'Meals for Package 7',
-                'transportation' => 'Transportation for Package 7',
-                'tour_guides' => 'Tour guides for Package 7',
-                'status' => 1,
-            ],
             // Add more packages as needed
         ];
 

@@ -33,37 +33,37 @@
 
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="public/assets/images/gallery/gallery_01.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_01.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter sprinkle">
-                    <img src="public/assets/images/gallery/gallery_02.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_02.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter hdpe">
-                    <img src="public/assets/images/gallery/gallery_03.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_03.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter irrigation">
-                    <img src="public/assets/images/gallery/gallery_04.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_04.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter spray">
-                    <img src="public/assets/images/gallery/gallery_05.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_05.jpg') }}" class="img-responsive">
                 </div>
 
 
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter spray">
-                    <img src="public/assets/images/gallery/gallery_06.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_06.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-3 col-sm-4 col-xs-6 filter irrigation">
-                    <img src="public/assets/images/gallery/gallery_09.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_09.jpg') }}" class="img-responsive">
                 </div>
 
                 <div class="gallery_product col-lg-3 col-md-4 col-sm-3 col-xs-6 filter irrigation">
-                    <img src="public/assets/images/gallery/gallery_08.jpg" class="img-responsive">
+                    <img src="{{ public_asset('assets/front/images/gallery/gallery_08.jpg') }}" class="img-responsive">
                 </div>
 
 

@@ -189,37 +189,31 @@
     <div class="container-fluid my-5">
         <div class="container mt-5">
             <div class="text-center mb-3">
-                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Home Page</h6>
-                <h1>Welcome to Jim Corbett</h1>
+                <h1>Welcome to Corbett</h1>
             </div>
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img class="w-100" src="https://jim-corbett.greenhomecity.com/public/assets/images/garjiya_temple.jpg" alt="">
-                    </div>
-                    <div class="col-md-6">
-                        <h5>Garjiya Devi Temple</h5>
-                        <p class="py-2 text-justify" style="text-indent: 50px;">
-                            Garjiya Devi Temple, situated on the banks of the Kosi River near Ramnagar in Uttarakhand,
-                            India, is a revered Hindu sanctuary dedicated to Goddess Parvati, known as Garjiya Devi. Rooted
-                            in mythology and folklore, the temple serves as a significant pilgrimage site attracting
-                            devotees, pilgrims, and tourists seeking spiritual blessings and solace.
-                            According to legend, the temple's inception is attributed to Muni Anand, a sage who purportedly
-                            discovered an idol of Goddess Parvati submerged in the waters of the Kosi River. This auspicious
-                            find led to the construction of the temple, which subsequently evolved into a sacred place of
-                            worship and reverence.
-                            The allure of Garjiya Devi Temple extends beyond its religious significance, as it is nestled
-                            amidst the verdant Kumaon hills, offering visitors a scenic retreat. The suspension bridge
-                            spanning the river further enhances the pilgrimage experience, providing breathtaking views of
-                            the tranquil surroundings.
-                            Throughout the year, devotees congregate at the temple, with heightened fervour during festivals
-                            such as Navratri and Kartik Poornima, to partake in special prayers and rituals. Garjiya Devi
-                            Temple epitomizes faith, cultural heritage, and natural splendour, inviting all to bask in its
-                            divine aura and serene ambiance.
+                <h5>Garjiya Devi Temple</h5>
+                <img class="w-100" src="https://jim-corbett.greenhomecity.com/public/assets/images/garjiya_temple.jpg"
+                    alt="">
+                <p class="py-2 text-justify" style="text-indent: 50px;">
+                    Garjiya Devi Temple, situated on the banks of the Kosi River near Ramnagar in Uttarakhand,
+                    India, is a revered Hindu sanctuary dedicated to Goddess Parvati, known as Garjiya Devi. Rooted
+                    in mythology and folklore, the temple serves as a significant pilgrimage site attracting
+                    devotees, pilgrims, and tourists seeking spiritual blessings and solace.
+                    According to legend, the temple's inception is attributed to Muni Anand, a sage who purportedly
+                    discovered an idol of Goddess Parvati submerged in the waters of the Kosi River. This auspicious
+                    find led to the construction of the temple, which subsequently evolved into a sacred place of
+                    worship and reverence.
+                    The allure of Garjiya Devi Temple extends beyond its religious significance, as it is nestled
+                    amidst the verdant Kumaon hills, offering visitors a scenic retreat. The suspension bridge
+                    spanning the river further enhances the pilgrimage experience, providing breathtaking views of
+                    the tranquil surroundings.
+                    Throughout the year, devotees congregate at the temple, with heightened fervour during festivals
+                    such as Navratri and Kartik Poornima, to partake in special prayers and rituals. Garjiya Devi
+                    Temple epitomizes faith, cultural heritage, and natural splendour, inviting all to bask in its
+                    divine aura and serene ambiance.
 
-                        </p>
-                    </div>
-                </div>
+                </p>
 
 
             </div>
@@ -273,6 +267,171 @@
         </div>
 
     </div> --}}
+
+
+    <div class="container-fluid mt-5">
+        <div class="container mt-5">
+            <div class="text-center mb-3">
+
+                <h1>Your Guide to Jim Corbett</h1>
+            </div>
+            <div class="container">
+                <p class="py-2 text-justify" style="text-indent: 50px;line-height:30px;">
+                    Fun fact: Jim Corbett was an Indian-born Brit
+                    who was most well-known as a master tiger hunter. Not exactly what we would call conservation today. But
+                    back in the early 1900s Jim Corbett tracked
+                    man-eating tigers expertly and protected the small villages of Uttar Pradesh. Despite his dubious
+                    conservation techniques (at the time there were MANY more tigers in Indian jungles), he was responsible
+                    for establishing India’s very first national park (this one) to protect the unique species inside it.
+                </p>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4_ col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid"
+                            src="https://jim-corbett.greenhomecity.com/public/assets/frontend/img/packages/jeep-safari_01.webp"
+                            alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Night</small>
+
+                            </div>
+                            <a class="h5 text-decoration-none" href="https://jim-corbett.greenhomecity.com/package/1">Jeep
+                                Safari Online Booking &amp; Tariff - Jim Corbett National Park</a>
+
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+
+                                    <h6 class="m-0">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        4
+                                        <small>(1250)</small>
+                                    </h6>
+                                    <h5 class="m-0"><i class="fa fa-rupee-sign  mr-2"> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>2500 - Indian <br> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>5000 - Foreigner</i>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4_ col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid"
+                            src="https://jim-corbett.greenhomecity.com/public/assets/frontend/img/packages/banner-image-3.webp"
+                            alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Day</small>
+
+                            </div>
+                            <a class="h5 text-decoration-none"
+                                href="https://jim-corbett.greenhomecity.com/package/2">Elephant Safari Online Booking &amp;
+                                Tariff - Jim Corbett National Park</a>
+
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+
+                                    <h6 class="m-0">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        4
+                                        <small>(1250)</small>
+                                    </h6>
+                                    <h5 class="m-0"><i class="fa fa-rupee-sign  mr-2"> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>3500</i>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4_ col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid"
+                            src="https://jim-corbett.greenhomecity.com/public/assets/frontend/img/packages/banner-image-2.webp"
+                            alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Per Person,
+                                    Available today</small>
+
+                            </div>
+                            <a class="h5 text-decoration-none"
+                                href="https://jim-corbett.greenhomecity.com/package/3">Dhikala Canter Safari Online Booking
+                                &amp; Tariff - Jim Corbett National Park</a>
+
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+
+                                    <h6 class="m-0">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        4
+                                        <small>(1250)</small>
+                                    </h6>
+                                    <h5 class="m-0"><i class="fa fa-rupee-sign  mr-2"> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>8000 Indian <br> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>12000 - Foreigner</i>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4_ col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid"
+                            src="https://jim-corbett.greenhomecity.com/public/assets/frontend/img/packages/banner-image-1.webp"
+                            alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+
+                                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Per Person,
+                                    Available today</small>
+
+                            </div>
+                            <a class="h5 text-decoration-none"
+                                href="https://jim-corbett.greenhomecity.com/package/4">Night Stay Accommodation Online
+                                Booking &amp; Tariff - Jim Corbett National Park</a>
+
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+
+                                    <h6 class="m-0">
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        <i class="fa fa-star text-primary"></i>
+                                        4
+                                        <small>(1250)</small>
+                                    </h6>
+                                    <h5 class="m-0"><i class="fa fa-rupee-sign  mr-2"> <i
+                                            class='fa fa-rupee-sign  mr-2'></i>2500.00</i>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!--################### Tour Type Starts Here #######################--->

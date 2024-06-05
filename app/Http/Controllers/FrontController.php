@@ -134,7 +134,8 @@ class FrontController extends Controller
     public function packages()
     {
         try {
-            return view('packages');
+            $pefect_tour_packages = PefectTourPackages::get();
+            return view('packages', compact('pefect_tour_packages'));
         } catch (\Exception $e) {
             dd($e->getMessage());
         }
