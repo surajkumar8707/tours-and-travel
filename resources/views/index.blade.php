@@ -186,10 +186,50 @@
         </div>
     </div>
 
+    <div class="container-fluid my-5">
+        <div class="container mt-5">
+            <div class="text-center mb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Home Page</h6>
+                <h1>Welcome to Jim Corbett</h1>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="w-100" src="https://jim-corbett.greenhomecity.com/public/assets/images/garjiya_temple.jpg" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Garjiya Devi Temple</h5>
+                        <p class="py-2 text-justify" style="text-indent: 50px;">
+                            Garjiya Devi Temple, situated on the banks of the Kosi River near Ramnagar in Uttarakhand,
+                            India, is a revered Hindu sanctuary dedicated to Goddess Parvati, known as Garjiya Devi. Rooted
+                            in mythology and folklore, the temple serves as a significant pilgrimage site attracting
+                            devotees, pilgrims, and tourists seeking spiritual blessings and solace.
+                            According to legend, the temple's inception is attributed to Muni Anand, a sage who purportedly
+                            discovered an idol of Goddess Parvati submerged in the waters of the Kosi River. This auspicious
+                            find led to the construction of the temple, which subsequently evolved into a sacred place of
+                            worship and reverence.
+                            The allure of Garjiya Devi Temple extends beyond its religious significance, as it is nestled
+                            amidst the verdant Kumaon hills, offering visitors a scenic retreat. The suspension bridge
+                            spanning the river further enhances the pilgrimage experience, providing breathtaking views of
+                            the tranquil surroundings.
+                            Throughout the year, devotees congregate at the temple, with heightened fervour during festivals
+                            such as Navratri and Kartik Poornima, to partake in special prayers and rituals. Garjiya Devi
+                            Temple epitomizes faith, cultural heritage, and natural splendour, inviting all to bask in its
+                            divine aura and serene ambiance.
+
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
 
     <!--################### Destinations Starts Here #######################--->
 
-    <div class="destinations container-fluid">
+    {{-- <div class="destinations container-fluid">
         <div class="container">
             <div class="session-title">
                 <h2>Our Destinations</h2>
@@ -232,7 +272,7 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
 
 
     <!--################### Tour Type Starts Here #######################--->
