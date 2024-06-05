@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Contact;
 use App\Models\HomePageCarousel;
+use App\Models\PefectTourPackages;
 use Illuminate\Http\Request;
 
 class FrontController extends Controller
@@ -18,7 +19,8 @@ class FrontController extends Controller
     {
         try {
             $carousels = HomePageCarousel::where('status', 1)->get();
-            return view('index', compact('carousels'));
+            $pefect_tour_packages = PefectTourPackages::get();
+            return view('index', compact('carousels', 'pefect_tour_packages'));
         } catch (\Exception $e) {
             dd($e->getMessage());
         }

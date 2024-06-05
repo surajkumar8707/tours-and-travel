@@ -7,7 +7,8 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     @for ($i = 0; $i < count($carousels); $i++)
-                        <li data-target="#carouselExampleIndicators" data-slide-to="{{ $i }}" class="@if($i == 0) active @endif"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="{{ $i }}"
+                            class="@if ($i == 0) active @endif"></li>
                     @endfor
                 </ol>
                 <div class="carousel-inner">
@@ -40,10 +41,13 @@
     <div class="why-choos-us container-fluid">
         <div class="container">
             <div class="session-title">
-                <h2>Why Choos Us ?</h2>
+                <h2>About Us ?</h2>
                 <p>Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.</p>
             </div>
-            <div class="why-ro row">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corporis quis exercitationem ex minima earum
+                blanditiis doloribus quod rem laudantium. Accusamus harum atque quibusdam pariatur. Explicabo quas doloribus
+                placeat ipsa!</div>
+            {{-- <div class="why-ro row">
                 <div class="col-lg-4 col-md-6">
                     <div class="col-card">
                         <div class="icon">
@@ -111,7 +115,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> --}}
         </div>
     </div>
 
@@ -120,11 +124,35 @@
     <div class="popular-pack no-bgpack container-fluid">
         <div class="container">
             <div class="session-title">
-                <h2>Popular Packages</h2>
+                <h2>Our Services</h2>
                 <p>Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.</p>
             </div>
             <div class="row pack-row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
+                @forelse ($pefect_tour_packages as $package)
+                    <div class="col-lg-4 col-md-6 col-sm-6 my-2">
+                        <div class="pack-col">
+                            <img src="{{ public_asset($package->images) }}" alt="">
+                            <div class="revire row no-margin">
+                                <ul class="rat">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                                <span class="pric">
+                                    ${{ $package->price }}
+                                </span>
+                            </div>
+                            <div class="detail row no-margin">
+                                <h4>{{ $package->name }}</h4>
+                                <p>{{ $package->description }}</p>
+                            </div>
+                        </div>
+                    </div>
+                @empty
+                @endforelse
+                {{-- <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="pack-col">
                         <img src="public/assets/images/packages/p1.jpg" alt="">
                         <div class="revire row no-margin">
@@ -153,69 +181,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pack-col">
-                        <img src="public/assets/images/packages/p2.jpg" alt="">
-                        <div class="revire row no-margin">
-                            <ul class="rat">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span class="pric">
-                                $750
-                            </span>
-                        </div>
-                        <div class="detail row no-margin">
-                            <h4>Amazon Cruise</h4>
-                            <p>Mattis interdum nunc massa. Velit. Nonummy penatibus</p>
-                        </div>
-                        <div class="options row no-margin">
-                            <ul>
-                                <li><i class="fas fa-car"></i></li>
-                                <li><i class="fab fa-fly"></i></li>
-                                <li><i class="fas fa-cocktail"></i></li>
-                                <li><i class="fas fa-umbrella-beach"></i></li>
-                                <li><i class="far fa-bell"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="pack-col">
-                        <img src="public/assets/images/packages/p3.jpg" alt="">
-                        <div class="revire row no-margin">
-                            <ul class="rat">
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                                <li><i class="fa fa-star"></i></li>
-                            </ul>
-                            <span class="pric">
-                                $750
-                            </span>
-                        </div>
-                        <div class="detail row no-margin">
-                            <h4>Amazon Cruise</h4>
-                            <p>Mattis interdum nunc massa. Velit. Nonummy penatibus</p>
-                        </div>
-                        <div class="options row no-margin">
-                            <ul>
-                                <li><i class="fas fa-car"></i></li>
-                                <li><i class="fab fa-fly"></i></li>
-                                <li><i class="fas fa-cocktail"></i></li>
-                                <li><i class="fas fa-umbrella-beach"></i></li>
-                                <li><i class="far fa-bell"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

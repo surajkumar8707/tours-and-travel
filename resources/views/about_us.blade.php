@@ -38,7 +38,7 @@
                         id pretium massa arcu sed mi. Nunc a sollicitudin sem. Duis tempus </p>
                 </div>
                 <div class="image-part col-md-6">
-                    <img src="public/assets/images/about.jpg" alt="">
+                    <img src="{{ public_asset('assets/front/images/about.jpg') }}" alt="">
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="card-1 team-member">
-                        <img src="public/assets/images/team/team-1.jpg" alt="Team Member 1">
+                        <img src="{{ public_asset('assets/front/images/team/team-1.jpg') }}" alt="Team Member 1">
 
                         <p><b>Siva Kumar</b> (CEO & Chairman)</p>
                         <ul class="row">
@@ -74,7 +74,7 @@
 
                 <div class="col-md-3 col-sm-6">
                     <div class="card-1 team-member">
-                        <img src="public/assets/images/team/team-2.jpg" alt="Team Member 1">
+                        <img src="{{ public_asset('assets/front/images/team/team-2.jpg') }}" alt="Team Member 1">
 
                         <p><b>Siva Kumar</b> (CEO & Chairman)</p>
                         <ul class="row">
@@ -88,7 +88,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="card-1 team-member">
-                        <img src="public/assets/images/team/team-3.jpg" alt="Team Member 1">
+                        <img src="{{ public_asset('assets/front/images/team/team-3.jpg') }}" alt="Team Member 1">
 
                         <p><b>Siva Kumar</b> (CEO & Chairman)</p>
                         <ul class="row">
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <div class="card-1 team-member">
-                        <img src="public/assets/images/team/team-4.jpg" alt="Team Member 1">
+                        <img src="{{ public_asset('assets/front/images/team/team-4.jpg') }}" alt="Team Member 1">
 
                         <p><b>Siva Kumar</b> (CEO & Chairman)</p>
                         <ul class="row">
