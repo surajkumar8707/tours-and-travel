@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
+use App\Models\Enquiry;
 use App\Models\Setting;
 use App\Models\SocialMediaLink;
 use Illuminate\Http\Request;
@@ -22,9 +23,15 @@ class AdminController extends Controller
 
     public function showContacts()
     {
-        $contacts = Contact::orderBy('created_at', 'DESC')->get();
+        $contacts = Contact::orderBy('created_at', 'DESC')->paginate(10);
         // dd($contacts->toArray());
         return view('admin.contacts', compact('contacts'));
+    }
+
+    public function showEnquiries()
+    {
+        $enquiries = Enquiry::orderBy('created_at', 'DESC')->paginate(10);
+        return view('admin.enquiries', compact('enquiries'));
     }
 
     public function socialMediaShow()

@@ -72,17 +72,17 @@
                             <a class="nav-link" href="{{ route('packages') }}">Packages</a>
                         </li>
 
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('gallery') }}">Gallery</a>
-                        </li>
+                        </li> --}}
 
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('blog') }}">Blog</a>
-                        </li>
+                        </li> --}}
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('contact') }}">Contact US</a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a class="nav-link" href="{{ route('jeep.safari') }}">Jeep Safari</a>
                         </li>
                         <li class="nav-item">
@@ -96,7 +96,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('cancel.refund') }}">Cancel Refund</a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

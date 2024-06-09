@@ -70,6 +70,13 @@
             </a>
         </li>
 
+        <li class="menu-item {{ isActiveRoute('admin.enquiries') }}">
+            <a href="{{ route('admin.enquiries') }}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-recycle"></i>
+                <div data-i18n="Analytics">Enquiries</div>
+            </a>
+        </li>
+
         <li class="menu-item {{ isActiveRoute('admin.social.media.show') }}">
             <a href="{{ route('admin.social.media.show') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-link"></i>

@@ -36,86 +36,61 @@
         </div>
     @endif
 
-    <!-- ################# Why Choos US Starts Here #######################--->
+    <!-- ################# Enquiry Starts Here #######################--->
 
     <div class="why-choos-us container-fluid">
         <div class="container">
             <div class="session-title">
-                <h2>About Us ?</h2>
+                <h2>Enquiry</h2>
+                <p>Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.</p>
+            </div>
+            <div>
+                <div class="row align-items-center mx-auto">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="card border-0">
+                            <div class="card-body rounded-bottom bg-white p-5">
+
+                                <form action="{{ route('enquiry.submit') }}" method="POST">
+                                    @csrf
+                                    <div class="form-group">
+                                        {{-- <label for="name">Name:</label> --}}
+                                        <input type="text" id="name" name="name" class="form-control" required="" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        {{-- <label for="email">Email:</label> --}}
+                                        <input type="email" id="email" name="email" class="form-control"
+                                            required="" placeholder="email@example.com">
+                                    </div>
+                                    <div class="form-group">
+                                        {{-- <label for="phone">Phone:</label> --}}
+                                        <input type="tel" id="phone" name="phone" class="form-control"
+                                            required="" placeholder="phone">
+                                    </div>
+                                    <div class="form-group">
+                                        {{-- <label for="message">Message:</label> --}}
+                                        <textarea id="message" name="message" class="form-control" rows="4" required="" placeholder="Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ################# About US Starts Here #######################--->
+
+    <div class="why-choos-us container-fluid">
+        <div class="container">
+            <div class="session-title">
+                <h2>About Us</h2>
                 <p>Sagittis vulputate magna sagittis sagittis erat feugiat nullam cubilia amet dignissim Euismod.</p>
             </div>
             <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque corporis quis exercitationem ex minima earum
                 blanditiis doloribus quod rem laudantium. Accusamus harum atque quibusdam pariatur. Explicabo quas doloribus
                 placeat ipsa!</div>
-            {{-- <div class="why-ro row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="far fa-calendar-plus"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Easy Booking</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="fas fa-dollar-sign"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Value for Money</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Passionate Travel</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="fas fa-map-marked-alt"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Awesome Places</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="fas fa-car"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Diverse Destinations</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="col-card">
-                        <div class="icon">
-                            <i class="far fa-comments"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>24 x 7 Support</h4>
-                            <p>Turpis accumsan. Proin id ligula suspendisse. Aliquet fringilla, aptent eu dignissim.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div> --}}
         </div>
     </div>
 
@@ -415,7 +390,8 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="package-item">
-                        <img src="https://www.adventurush.com/wp-content/uploads/2022/08/Copy-of-shutterstock_1268935471.jpg" alt="Corbett Fun Tour with Jeep Safari">
+                        <img src="https://www.adventurush.com/wp-content/uploads/2022/08/Copy-of-shutterstock_1268935471.jpg"
+                            alt="Corbett Fun Tour with Jeep Safari">
                         <div class="down-content">
                             <h4>Corbett Fun Tour with Jeep Safari</h4>
                             <p>Duration: 1 Night & 2 Days<br>
@@ -424,7 +400,8 @@
                                 Meal Plan: MAP (Dinner & Breakfast)<br>
                                 Room Category: Deluxe Room</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="price"><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2 Members)</span>
+                                <span class="price"><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2
+                                    Members)</span>
                                 {{-- <a href="{{ url('packages.show', 1) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>
@@ -433,7 +410,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="package-item">
-                        <img src="https://www.corbett-national-park.com/blog/wp-content/uploads/2015/09/corbett-jungle-holidays.jpg" alt="Corbett Holiday Tour with Jeep Safari">
+                        <img src="https://www.corbett-national-park.com/blog/wp-content/uploads/2015/09/corbett-jungle-holidays.jpg"
+                            alt="Corbett Holiday Tour with Jeep Safari">
                         <div class="down-content">
                             <h4>Corbett Holiday Tour with Jeep Safari</h4>
                             <p>Duration: 2 Nights & 3 Days<br>
@@ -442,7 +420,8 @@
                                 Meal Plan: MAP (Dinner & Breakfast)<br>
                                 Room Category: Deluxe Room</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="price"><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2 Members)</span>
+                                <span class="price"><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2
+                                    Members)</span>
                                 {{-- <a href="{{ url('packages.show', 2) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>
@@ -451,7 +430,8 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="package-item">
-                        <img src="https://www.alkofholidays.com/admin/uploads/2020/04/AH-88725-Nainital-Tours-Uttarakhand.jpg">
+                        <img
+                            src="https://www.alkofholidays.com/admin/uploads/2020/04/AH-88725-Nainital-Tours-Uttarakhand.jpg">
                         <div class="down-content">
                             <h4>Corbett & Nainital Tour with Jungle Safari</h4>
                             <p>Duration: 2 Nights & 3 Days<br>
@@ -461,7 +441,8 @@
                                 Meal Plan: MAP (Dinner & Breakfast)<br>
                                 Room Category: Deluxe Room</p>
                             <div class="d-flex justify-content-between align-items-center">
-                                <span class="price"><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2 Members)</span>
+                                <span class="price"><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2
+                                    Members)</span>
                                 {{-- <a href="{{ url('packages.show', 3) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>

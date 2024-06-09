@@ -20,13 +20,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            @forelse ($contacts as $key => $contact)
+                            @forelse ($enquiries as $key => $enquiry)
                                 <tr>
                                     <td>{{ $loop->iteration }}</td>
-                                    <td>{{ $contact->name }}</td>
-                                    <td>{{ $contact->email }}</td>
-                                    <td>{{ $contact->phone }}</td>
-                                    <td>{{ $contact->message }}</td>
+                                    <td>{{ $enquiry->name }}</td>
+                                    <td>{{ $enquiry->email }}</td>
+                                    <td>{{ $enquiry->phone }}</td>
+                                    <td>{{ $enquiry->message }}</td>
                                 </tr>
                             @empty
                                 <tr class="small text-center" colspan="5">No data available in the table</tr>
@@ -34,7 +34,7 @@
                         </tbody>
                     </table>
                     <div class="enquiry-paginate text-end mt-3">
-                        {{ $contacts->links() }}
+                        {{ $enquiries->links() }}
                     </div>
                 </div>
             </div>

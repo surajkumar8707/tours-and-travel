@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use App\Models\Enquiry;
 use App\Models\HomePageCarousel;
 use App\Models\PefectTourPackages;
 use Illuminate\Http\Request;
@@ -170,6 +171,30 @@ class FrontController extends Controller
             dd($e->getMessage());
         }
     }
+
+    /**
+     * Submit Enquiry form
+     * Route Name : enquiry.submit
+     * Method : POST
+     * @return homapage view
+     */
+    public function enquirySubmit(Request $request)
+    {
+        try {
+            $data = $this->validate($request, [
+                'name' => 'required',
+                'email' => 'required|email',
+                'phone' => 'required|integer',
+                'message' => 'required',
+            ]);
+            $enquiry = Enquiry::create($data);
+            return redirect()->back()->with('success', 'Your Enquiry has been saved successfully, Our Team will be notified soon');
+
+        } catch (\Exception $e) {
+            dd($e->getMessage());
+        }
+    }
+
     public function jeepSafari()
     {
         try {

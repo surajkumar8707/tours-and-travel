@@ -25,5 +25,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SocialMediaLinkSeeder::class);
         $this->call(ContactSeeder::class);
         $this->call(PefectTourPackagesSeeder::class);
+        $this->call(EnquirySeeder::class);
     }
 }
