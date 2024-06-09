@@ -18,7 +18,7 @@ class SettingSeeder extends Seeder
 
         // Seed new data
         Setting::create([
-            'app_name' => 'Corbett',
+            'app_name' => 'Travel adventure safari',
             'email' => 'corbett@gmail.com',
             'whatsapp' => '+91 8707633860',
             'contact' => '+91 8707633860',

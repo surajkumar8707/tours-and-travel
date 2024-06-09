@@ -46,28 +46,29 @@
             </div>
             <div>
                 <div class="row align-items-center mx-auto">
-                    <div class="col-lg-8 mx-auto">
+                    <div class="col-lg-6 mx-auto">
                         <div class="card border-0">
                             <div class="card-body rounded-bottom bg-white p-5">
 
                                 <form action="{{ route('enquiry.submit') }}" method="POST">
                                     @csrf
                                     <div class="form-group">
-                                        {{-- <label for="name">Name:</label> --}}
-                                        <input type="text" id="name" name="name" class="form-control" required="" placeholder="Name">
+                                        <label for="name">Name:</label>
+                                        <input type="text" id="name" name="name" class="form-control"
+                                            required="" placeholder="Name">
                                     </div>
                                     <div class="form-group">
-                                        {{-- <label for="email">Email:</label> --}}
+                                        <label for="email">Email:</label>
                                         <input type="email" id="email" name="email" class="form-control"
                                             required="" placeholder="email@example.com">
                                     </div>
                                     <div class="form-group">
-                                        {{-- <label for="phone">Phone:</label> --}}
+                                        <label for="phone">Phone:</label>
                                         <input type="tel" id="phone" name="phone" class="form-control"
                                             required="" placeholder="phone">
                                     </div>
                                     <div class="form-group">
-                                        {{-- <label for="message">Message:</label> --}}
+                                        <label for="message">Message:</label>
                                         <textarea id="message" name="message" class="form-control" rows="4" required="" placeholder="Message"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -380,13 +381,12 @@
     <!--################### Tour Type Starts Here #######################--->
 
     <!-- ################# Tour Packages Starts Here #######################--->
-    <div class="tour-package container-fluid">
+    {{-- <div class="tour-package container-fluid">
         <div class="container">
             <div class="session-title row">
                 <h2>Packages</h2>
                 <p>Jim Corbett Green Home city have a wide range of packages for your comfort</p>
             </div>
-            <!-- Custom Added Packages -->
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="package-item">
@@ -402,7 +402,6 @@
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="price"><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2
                                     Members)</span>
-                                {{-- <a href="{{ url('packages.show', 1) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>
                     </div>
@@ -422,7 +421,6 @@
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="price"><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2
                                     Members)</span>
-                                {{-- <a href="{{ url('packages.show', 2) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>
                     </div>
@@ -443,7 +441,6 @@
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="price"><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2
                                     Members)</span>
-                                {{-- <a href="{{ url('packages.show', 3) }}" class="btn btn-primary">Read More</a> --}}
                             </div>
                         </div>
                     </div>
@@ -452,7 +449,81 @@
             <!-- End Custom Added Packages -->
 
         </div>
+    </div> --}}
+    <div class="tour-package container-fluid">
+        <div class="container">
+            <div class="session-title row">
+                <h2>Packages</h2>
+                <p>Jim Corbett Green Home city has a wide range of packages for your comfort</p>
+            </div>
+            <!-- Custom Added Packages -->
+            <div class="row">
+                <div class="col-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>S.No</th>
+                                <th>Image</th>
+                                <th>Package</th>
+                                <th>Duration</th>
+                                <th>Jungle Safari</th>
+                                <th>Accommodation</th>
+                                <th>Meal Plan</th>
+                                <th>Room Category</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <img src="https://www.adventurush.com/wp-content/uploads/2022/08/Copy-of-shutterstock_1268935471.jpg"
+                                        alt="Corbett Fun Tour with Jeep Safari" style="width: 100px;">
+                                </td>
+                                <td>Corbett Fun Tour with Jeep Safari</td>
+                                <td>1 Night & 2 Days</td>
+                                <td>1 Time Jeep Safari</td>
+                                <td>1 Night Stay at Wildlife Resort</td>
+                                <td>MAP (Dinner & Breakfast)</td>
+                                <td>Deluxe Room</td>
+                                <td><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2 Members)</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <img src="https://www.corbett-national-park.com/blog/wp-content/uploads/2015/09/corbett-jungle-holidays.jpg"
+                                        alt="Corbett Holiday Tour with Jeep Safari" style="width: 100px;">
+                                </td>
+                                <td>Corbett Holiday Tour with Jeep Safari</td>
+                                <td>2 Nights & 3 Days</td>
+                                <td>1 Time Jeep Safari</td>
+                                <td>2 Nights Stay at Wildlife Resort</td>
+                                <td>MAP (Dinner & Breakfast)</td>
+                                <td>Deluxe Room</td>
+                                <td><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2 Members)</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <img src="https://www.alkofholidays.com/admin/uploads/2020/04/AH-88725-Nainital-Tours-Uttarakhand.jpg"
+                                        alt="Corbett & Nainital Tour with Jungle Safari" style="width: 100px;">
+                                </td>
+                                <td>Corbett & Nainital Tour with Jungle Safari</td>
+                                <td>2 Nights & 3 Days</td>
+                                <td>1 Time Jeep Safari</td>
+                                <td>2 Nights Stay at Wildlife Resort</td>
+                                <td>MAP (Dinner & Breakfast)</td>
+                                <td>Deluxe Room</td>
+                                <td><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2 Members)</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- End Custom Added Packages -->
+        </div>
     </div>
+
 
     <!--*************** Blog Starts Here ***************-->
     <div class="container-fluid blog">
