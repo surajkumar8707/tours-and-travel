@@ -21,40 +21,41 @@
             <br><br><br>
             <div class="container">
                 <h2>Information We Collect</h2>
-                <p>We may collect personal information from you when you make a reservation, sign up for our newsletter, or
-                    interact with us online or in person. This information may include your name, contact details, payment
-                    information, and preferences.</p>
+                <p>{{ isset(getSettings()->app_name) ? getSettings()->app_name : 'Corbett' }} is committed to protecting
+                    your privacy and ensuring that your personal information is secure. This privacy policy explains how we
+                    collect, use, and disclose your personal information.</p>
+                    <br>
 
-                <h2>How We Use Your Information</h2>
-                <p>We use your personal information to process reservations, improve our services, and communicate with you
-                    about promotions, events, and special offers. We may also use your information for marketing purposes
-                    with your consent.</p>
-
-                <h2>Data Security</h2>
-                <p>We take appropriate measures to protect your personal information from unauthorized access, disclosure,
-                    alteration, or destruction. Our website uses secure encryption technology to safeguard your data during
-                    online transactions.</p>
-
-                <h2>Third-Party Disclosure</h2>
-                <p>We do not sell, trade, or otherwise transfer your personal information to third parties without your
-                    consent, except as required by law or to fulfill your requests.</p>
-
-                <h2>Cookies</h2>
-                <p>Our website may use cookies to enhance your browsing experience and track usage patterns. You can adjust
-                    your browser settings to refuse cookies or alert you when they are being used.</p>
-
-                <h2>Your Rights</h2>
-                <p>You have the right to access, correct, or delete your personal information held by us. If you have any
-                    questions or concerns about our Privacy Policy or how we handle your data, please contact us.</p>
-
-                <h2>Changes to This Policy</h2>
-                <p>We reserve the right to update or amend this Privacy Policy at any time. Any changes will be posted on
-                    our website, and your continued use of our services constitutes acceptance of the revised policy.</p>
-
-                <p>By using our website or services, you consent to the collection and use of your personal information as
-                    outlined in this Privacy Policy.</p>
-
-                <br><br>
+                <ol type="1">
+                    <br><li>1) Collection of Personal Information: a) We collect personal information from you when you book a trip
+                        with us or contact us through our website or other communication channels. b) The personal
+                        information we collect may include your name, address, email address, telephone number, passport
+                        information, and travel preferences.</li>
+                    <br><li>2) Use of Personal Information: a) We use your personal information to provide you with travel
+                        services, including booking flights, hotels, and other activities, as well as to communicate with
+                        you about your trip. b) We may also use your personal information to send you marketing
+                        communications, such as newsletters and promotional offers, if you have given us your consent to do
+                        so. c) We do not sell or rent your personal information to third parties.</li>
+                    <br><li>3) Disclosure of Personal Information: a) We may disclose your personal information to third-party
+                        service providers, such as airlines, hotels, and tour operators, in order to provide you with the
+                        travel services you have requested. b) We may also disclose your personal information if required to
+                        do so by law or to protect our legal rights or the safety of our clients and staff.</li>
+                    <br><li>4) Security of Personal Information: a) We take reasonable steps to protect your personal information
+                        from unauthorized access, use, or disclosure. b) We store your personal information in a secure
+                        database and restrict access to those who have a legitimate need to know.</li>
+                    <br><li>5) Retention of Personal Information: a) We retain your personal information only for as long as
+                        necessary to provide you with travel services and as required by law. b) We securely destroy or
+                        anonymize your personal information when it is no longer needed.</li>
+                    <br><li>6) Access to and Correction of Personal Information: a) You have the right to access and correct your
+                        personal information held by us. b) To request access to or correction of your personal information,
+                        please contact us using the contact information provided below.</li>
+                    <br><li>7) Changes to this Privacy Policy: a) We may update this privacy policy from time to time to reflect
+                        changes in our practices or legal requirements. b) We will post the updated privacy policy on our
+                        website and notify you of any material changes.</li>
+                    <br><li>8) Contact Us: If you have any questions or concerns about this privacy policy or how we handle your
+                        personal information, please contact us at <a href="mailto:{{ getSettings()->email }}" target="_new"
+                            rel="noopener">{{ getSettings()->email }}</a></li>
+                </ol>
             </div>
         </div>
     </div>
