@@ -116,7 +116,7 @@
                                 <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Night</small>
 
                             </div>
-                            <a class="h5 text-decoration-none" href="https://jim-corbett.greenhomecity.com/package/1">Jeep
+                            <a class="h5 text-decoration-none" href="javascript:;">Jeep
                                 Safari Online Booking &amp; Tariff - Jim Corbett National Park</a>
 
                             <div class="border-top mt-4 pt-4">
@@ -152,7 +152,7 @@
 
                             </div>
                             <a class="h5 text-decoration-none"
-                                href="https://jim-corbett.greenhomecity.com/package/2">Elephant Safari Online Booking &amp;
+                                href="javascript:;">Elephant Safari Online Booking &amp;
                                 Tariff - Jim Corbett National Park</a>
 
                             <div class="border-top mt-4 pt-4">
@@ -188,7 +188,7 @@
 
                             </div>
                             <a class="h5 text-decoration-none"
-                                href="https://jim-corbett.greenhomecity.com/package/3">Dhikala Canter Safari Online Booking
+                                href="javascript:;">Dhikala Canter Safari Online Booking
                                 &amp; Tariff - Jim Corbett National Park</a>
 
                             <div class="border-top mt-4 pt-4">
@@ -225,7 +225,7 @@
 
                             </div>
                             <a class="h5 text-decoration-none"
-                                href="https://jim-corbett.greenhomecity.com/package/4">Night Stay Accommodation Online
+                                href="javascript:;">Night Stay Accommodation Online
                                 Booking &amp; Tariff - Jim Corbett National Park</a>
 
                             <div class="border-top mt-4 pt-4">
