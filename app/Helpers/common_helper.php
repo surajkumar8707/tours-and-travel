@@ -8,6 +8,15 @@ if (!function_exists('getSettings')) {
     }
 }
 
+if (!function_exists('deletePublicPathFiles')) {
+    function deletePublicPathFiles($path){
+        // Delete the image file from the public/uploads directory
+        if (file_exists($path)) {
+            unlink($path);
+        }
+    }
+}
+
 if (!function_exists('getSocialMediaLink')) {
     function getSocialMediaLink(){
         return SocialMediaLink::first();
@@ -76,4 +85,5 @@ if (!function_exists('returnWebResponse')) {
         );
     }
 }
+
 ?>

@@ -457,69 +457,157 @@
                 <p>Jim Corbett Green Home city has a wide range of packages for your comfort</p>
             </div>
             <!-- Custom Added Packages -->
-            <div class="row">
-                <div class="col-12">
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>S.No</th>
-                                <th>Image</th>
-                                <th>Package</th>
-                                <th>Duration</th>
-                                <th>Jungle Safari</th>
-                                <th>Accommodation</th>
-                                <th>Meal Plan</th>
-                                <th>Room Category</th>
-                                <th>Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>
-                                    <img src="https://www.adventurush.com/wp-content/uploads/2022/08/Copy-of-shutterstock_1268935471.jpg"
-                                        alt="Corbett Fun Tour with Jeep Safari" style="width: 100px;">
-                                </td>
-                                <td>Corbett Fun Tour with Jeep Safari</td>
-                                <td>1 Night & 2 Days</td>
-                                <td>1 Time Jeep Safari</td>
-                                <td>1 Night Stay at Wildlife Resort</td>
-                                <td>MAP (Dinner & Breakfast)</td>
-                                <td>Deluxe Room</td>
-                                <td><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2 Members)</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>
-                                    <img src="https://www.corbett-national-park.com/blog/wp-content/uploads/2015/09/corbett-jungle-holidays.jpg"
-                                        alt="Corbett Holiday Tour with Jeep Safari" style="width: 100px;">
-                                </td>
-                                <td>Corbett Holiday Tour with Jeep Safari</td>
-                                <td>2 Nights & 3 Days</td>
-                                <td>1 Time Jeep Safari</td>
-                                <td>2 Nights Stay at Wildlife Resort</td>
-                                <td>MAP (Dinner & Breakfast)</td>
-                                <td>Deluxe Room</td>
-                                <td><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2 Members)</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>
-                                    <img src="https://www.alkofholidays.com/admin/uploads/2020/04/AH-88725-Nainital-Tours-Uttarakhand.jpg"
-                                        alt="Corbett & Nainital Tour with Jungle Safari" style="width: 100px;">
-                                </td>
-                                <td>Corbett & Nainital Tour with Jungle Safari</td>
-                                <td>2 Nights & 3 Days</td>
-                                <td>1 Time Jeep Safari</td>
-                                <td>2 Nights Stay at Wildlife Resort</td>
-                                <td>MAP (Dinner & Breakfast)</td>
-                                <td>Deluxe Room</td>
-                                <td><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2 Members)</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="w-100">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-b15940e elementor-widget elementor-widget-heading"
+                        data-id="b15940e" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Corbett Fun Tour with Jeep Safari
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5554829 elementor-widget elementor-widget-text-editor"
+                        data-id="5554829" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Image</strong></td>
+                                        <td><img src="https://www.adventurush.com/wp-content/uploads/2022/08/Copy-of-shutterstock_1268935471.jpg"
+                                                alt="Corbett Fun Tour with Jeep Safari" style="width: 100px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Duration</strong></td>
+                                        <td>1 Night &amp; 2 Days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Jungle Safari</strong></td>
+                                        <td>1 Time Jeep Safari</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Accommodation</strong></td>
+                                        <td>1 Night Stay at Wildlife Resort</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Meal Plan</strong></td>
+                                        <td>MAP (Dinner &amp; Breakfast)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Room Category</strong></td>
+                                        <td>Deluxe Room</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Price</strong></td>
+                                        <td><i class="fa fa-rupee-sign"></i> 5,200/- Per Person (Minimum 2 Members)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="w-100">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-b15940e elementor-widget elementor-widget-heading"
+                        data-id="b15940e" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Corbett Holiday Tour with Jeep
+                                Safari</h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5554829 elementor-widget elementor-widget-text-editor"
+                        data-id="5554829" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Image</strong></td>
+                                        <td><img src="https://www.corbett-national-park.com/blog/wp-content/uploads/2015/09/corbett-jungle-holidays.jpg"
+                                                alt="Corbett Holiday Tour with Jeep Safari" style="width: 100px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Duration</strong></td>
+                                        <td>2 Nights &amp; 3 Days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Jungle Safari</strong></td>
+                                        <td>1 Time Jeep Safari</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Accommodation</strong></td>
+                                        <td>2 Nights Stay at Wildlife Resort</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Meal Plan</strong></td>
+                                        <td>MAP (Dinner &amp; Breakfast)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Room Category</strong></td>
+                                        <td>Deluxe Room</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Price</strong></td>
+                                        <td><i class="fa fa-rupee-sign"></i> 7,000/- Per Person (Minimum 2 Members)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-100">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-b15940e elementor-widget elementor-widget-heading"
+                        data-id="b15940e" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Corbett &amp; Nainital Tour with
+                                Jungle Safari</h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5554829 elementor-widget elementor-widget-text-editor"
+                        data-id="5554829" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Image</strong></td>
+                                        <td><img src="https://www.alkofholidays.com/admin/uploads/2020/04/AH-88725-Nainital-Tours-Uttarakhand.jpg"
+                                                alt="Corbett &amp; Nainital Tour with Jungle Safari"
+                                                style="width: 100px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Duration</strong></td>
+                                        <td>2 Nights &amp; 3 Days</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Jungle Safari</strong></td>
+                                        <td>1 Time Jeep Safari</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Accommodation</strong></td>
+                                        <td>2 Nights Stay at Wildlife Resort</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Meal Plan</strong></td>
+                                        <td>MAP (Dinner &amp; Breakfast)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Room Category</strong></td>
+                                        <td>Deluxe Room</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Price</strong></td>
+                                        <td><i class="fa fa-rupee-sign"></i> ** Per Person (Minimum 2 Members)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- End Custom Added Packages -->
         </div>
     </div>

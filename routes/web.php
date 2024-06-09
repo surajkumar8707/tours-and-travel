@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\AdminLoginController;
 use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\HomePageCarouselController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -68,7 +69,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.'], function () {
             });
         });
 
-        // Route::resource('home-page-carousel', HomePageCarouselController::class);
+        Route::resource('home-page-carousel', HomePageCarouselController::class);
         // Add more authenticated routes here
     });
 });

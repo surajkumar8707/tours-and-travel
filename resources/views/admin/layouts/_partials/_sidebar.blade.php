@@ -77,10 +77,17 @@
             </a>
         </li>
 
-        <li class="menu-item {{ isActiveRoute('admin.social.media.show') }}">
+        <li class="menu-item {{ isActiveRoute(['admin.social.media.show', 'admin.social.media.create', 'admin.social.media.edit']) }}">
             <a href="{{ route('admin.social.media.show') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-link"></i>
                 <div data-i18n="Analytics">Social Media</div>
+            </a>
+        </li>
+
+        <li class="menu-item {{ isActiveRoute(['admin.home-page-carousel.index', 'admin.home-page-carousel.create', 'admin.home-page-carousel.edit']) }}">
+            <a href="{{ route('admin.home-page-carousel.index') }}" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-link"></i>
+                <div data-i18n="Analytics">Home Page Carousel</div>
             </a>
         </li>
 

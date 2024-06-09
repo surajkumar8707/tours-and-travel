@@ -7,7 +7,14 @@
         <div class="card">
             <div class="card-body">
                 <div class="container">
-                    {{-- <h2>Social Media Links</h2> --}}
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Social Media Links</h2>
+                        </div>
+                        <div class="col-md-6 text-end mb-md-2">
+                            <a href="{{ route('admin.social.media.create') }}" class="btn btn-primary">Edit <i class="menu-icon tf-icons bx bx-pencil"></i></a>
+                        </div>
+                    </div>
 
                     <ul class="list-group">
                         @if ($socialMediaLinks)
