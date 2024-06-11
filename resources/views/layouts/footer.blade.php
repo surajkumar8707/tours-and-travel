@@ -27,7 +27,7 @@
                 <address class="md-margin-bottom-40">
                     <strong>Address : </strong>
                     <span class="address">
-                        {{ $settings->address }}
+                        {!! $settings->address !!}
                     </span>
                     <br>
                     <strong>Phone:</strong> {{ $settings->contact }} <br>
