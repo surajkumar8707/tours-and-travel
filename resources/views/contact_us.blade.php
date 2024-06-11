@@ -16,13 +16,6 @@
 
     <!--  ************************* Contact Us Starts Here ************************** -->
 
-    <div style="margin-top:0px;" class="row no-margin">
-
-        <iframe style="width:100%"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d249759.19784092825!2d79.10145254589841!3d12.009924873581818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1448883859107"
-            height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-
     <div class="row contact-rooo no-margin">
         <div class="container">
             <div class="row">
@@ -89,15 +82,18 @@
 
                     <div style="margin:50px" class="serv">
                         <h2 style="margin-top:10px;">Address</h2>
-                        Antonya Street, <br>
-                        23/H-2, Building<br>
-                        TA, AUS District<br>
-                        Phone:+91 9159669599<br>
-                        Email:support@smarteyeapps.com<br>
-                        Website:www.smarteyeapps.com.com<br>
+                        {!! getSettings()->address !!}
+                        Email:{{ (isset(getSettings()->email) and !empty(getSettings()->email)) ? getSettings()->email : '' }}<br>
+                        Website: <a class="text-primary" href="{{ url('') }}">{{ url('') }}</a><br>
                     </div>
                 </div>
 
+            </div>
+            <div class="my-3" style="margin-top:0px;" class="row no-margin">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5378.468357060265!2d79.12717096668277!3d29.38377932093444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a13433e699765%3A0x9b54a29992723ba2!2sTRAVEL%20ADVENTURE%20SAFARI%20(traveljimcorbett.in)!5e0!3m2!1sen!2sin!4v1718129476523!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
 

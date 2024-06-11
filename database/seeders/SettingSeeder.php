@@ -19,10 +19,12 @@ class SettingSeeder extends Seeder
         // Seed new data
         Setting::create([
             'app_name' => 'Travel adventure safari',
-            'email' => 'corbett@gmail.com',
-            'whatsapp' => '+91 8707633860',
-            'contact' => '+91 8707633860',
-            'address' => 'Corbett',
+            'email' => 'info@traveljimcorbett.in',
+            'whatsapp' => '+91 8864927248',
+            'contact' => '+91 8864927248',
+            'address' => 'Sunni Gosiya Masjid, Building of SMT Farjana Near Star Plywood <br>
+                            Kadimi Masjid Road, Gullarghatti <br>
+                            Ramnagar, Nainital, Uttarakhand, 244715.',
             'header_image' => 'assets/front/images/logo.png',
         ]);
     }

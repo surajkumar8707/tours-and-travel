@@ -614,7 +614,7 @@
 
 
     <!--*************** Blog Starts Here ***************-->
-    <div class="container-fluid blog">
+    {{-- <div class="container-fluid blog">
         <div class="container">
             <div class="session-title">
                 <h2>Our Latest Blog</h2>
@@ -654,5 +654,5 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
 @endsection
