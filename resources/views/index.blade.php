@@ -295,7 +295,7 @@
 
                 </div>
                 <div class="row mt-5">
-                    <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                         <div class="cap-det">
                             <div class="icon">
                                 <i class="fas fa-walking"></i>
@@ -303,7 +303,7 @@
                             <h6>Walking</h6>
 
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="col-md-3 col-sm-6">
                         <div class="cap-det">
                             <div class="icon">
@@ -333,7 +333,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                         <div class="cap-det">
                             <div class="icon">
                                 <i class="fas fa-ship"></i>
@@ -351,7 +351,7 @@
                             <h6>Hiking</h6>
 
                         </div>
-                    </div>
+                    </div> --}}
 
                     <div class="col-md-3 col-sm-6">
                         <div class="cap-det">
@@ -363,7 +363,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
+                    {{-- <div class="col-md-3 col-sm-6">
                         <div class="cap-det">
                             <div class="icon">
                                 <i class="fas fa-baseball-ball"></i>
@@ -371,7 +371,7 @@
                             <h6>Sports</h6>
 
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -614,45 +614,4 @@
 
 
     <!--*************** Blog Starts Here ***************-->
-    {{-- <div class="container-fluid blog">
-        <div class="container">
-            <div class="session-title">
-                <h2>Our Latest Blog</h2>
-            </div>
-            <div class="blog-row row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog-col">
-                        <img src="{{ public_asset('assets/front/images/destination/d1.jpg') }}" alt="">
-                        <span>August 9, 2019</span>
-                        <h4>Orci varius consectetur adipiscing natoque penatibus</h4>
-                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Praesent accumsan, leo in venenatis dictum, </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog-col">
-                        <img src="{{ public_asset('assets/front/images/destination/d2.jpg') }}" alt="">
-                        <span>August 9, 2019</span>
-                        <h4>Orci varius consectetur adipiscing natoque penatibus</h4>
-                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Praesent accumsan, leo in venenatis dictum, </p>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="blog-col">
-                        <img src="{{ public_asset('assets/front/images/destination/d3.jpg') }}" alt="">
-                        <span>August 9, 2019</span>
-                        <h4>Orci varius consectetur adipiscing natoque penatibus</h4>
-                        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                            Praesent accumsan, leo in venenatis dictum, </p>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-    </div> --}}
 @endsection
